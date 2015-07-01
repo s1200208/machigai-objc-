@@ -18,6 +18,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelB;
 @property (weak, nonatomic) IBOutlet UILabel *labelC;
 @property (nonatomic) NSInteger judge;
+//@property (nonatomic) NSInteger number_p;
 - (IBAction)buttonA:(id)sender;
 - (IBAction)buttonB:(id)sender;
 - (IBAction)buttonC:(id)sender;

@@ -19,7 +19,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *label1;
 @property (weak, nonatomic) IBOutlet UIImageView *image1;
 @property (nonatomic) NSInteger state;
-@property (nonatomic) NSInteger count;
+//@property (nonatomic) NSInteger count;
 - (IBAction)pushView:(id)sender;
 
 @end

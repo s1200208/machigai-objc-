@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface endView : UIViewController
-
+@property NSInteger correct_num;
+@property (weak, nonatomic) IBOutlet UILabel *end_label;
+- (IBAction)restartBtn:(id)sender;
 @end

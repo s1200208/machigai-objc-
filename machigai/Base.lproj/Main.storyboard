@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VLI-vT-ZfZ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VLI-vT-ZfZ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -18,7 +18,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vGZ-Ma-nsT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-223" y="377"/>
+            <point key="canvasLocation" x="-379" y="-349"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EK3-Gd-lu8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-663" y="1162"/>
+            <point key="canvasLocation" x="-319.5" y="501.5"/>
         </scene>
         <!--Correct View-->
         <scene sceneID="qkd-Wc-6f4">
@@ -183,7 +183,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CCL-Yl-8qN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-690.5" y="2085.5"/>
+            <point key="canvasLocation" x="-802.5" y="1553.5"/>
         </scene>
         <!--End View-->
         <scene sceneID="DvQ-DM-YR9">
@@ -209,7 +209,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-Qs-DvU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-Qs-DvU">
                                 <rect key="frame" x="166" y="251" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -221,18 +221,22 @@
                                 <state key="normal" title="はじめから">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="restartBtn:" destination="JHF-et-aMx" eventType="touchUpInside" id="jQd-rP-F4K"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="EMm-vN-ptt"/>
                     <connections>
+                        <outlet property="end_label" destination="vBM-Qs-DvU" id="0tQ-I1-YLV"/>
                         <segue destination="BYZ-38-t0r" kind="push" identifier="restartPush" id="R5H-XB-C7Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ath-Go-1f1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="662.5" y="1062.5"/>
+            <point key="canvasLocation" x="517.5" y="1471.5"/>
         </scene>
         <!--Next View Controller-->
         <scene sceneID="qkq-2g-g79">
@@ -278,7 +282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3RI-Ff-47j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124.5" y="1181.5"/>
+            <point key="canvasLocation" x="196.5" y="501.5"/>
         </scene>
         <!--Incorrect View-->
         <scene sceneID="Ybq-q1-rmn">
@@ -320,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="49Y-8M-JnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="109.5" y="2085.5"/>
+            <point key="canvasLocation" x="-314.5" y="1553.5"/>
         </scene>
     </scenes>
     <resources>
@@ -329,8 +333,8 @@
         <image name="k_01_2.jpg" width="200" height="150"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="a5y-NI-R0d"/>
-        <segue reference="nIz-B3-BWc"/>
+        <segue reference="9lP-gp-sba"/>
+        <segue reference="jOe-fP-6Zp"/>
         <segue reference="R5H-XB-C7Q"/>
     </inferredMetricsTieBreakers>
 </document>

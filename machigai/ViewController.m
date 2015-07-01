@@ -10,7 +10,7 @@
 
 @interface ViewController ()
 {
-    NSInteger count;
+    NSInteger count;  //not used
 }
 @end
 

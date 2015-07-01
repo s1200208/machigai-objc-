@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0610"
+   LastUpgradeVersion = "0630"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "955EDE4A1AFC6EE6002E17EF"
-               BuildableName = "machigai.app"
-               BlueprintName = "machigai"
+               BlueprintIdentifier = "955EDE8A1AFC7D0E002E17EF"
+               BuildableName = "NextViewController.app"
+               BlueprintName = "NextViewController"
                ReferencedContainer = "container:machigai.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "955EDE631AFC6EE6002E17EF"
-               BuildableName = "machigaiTests.xctest"
-               BlueprintName = "machigaiTests"
+               BlueprintIdentifier = "955EDEA21AFC7D0E002E17EF"
+               BuildableName = "NextViewControllerTests.xctest"
+               BlueprintName = "NextViewControllerTests"
                ReferencedContainer = "container:machigai.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "955EDE631AFC6EE6002E17EF"
-               BuildableName = "machigaiTests.xctest"
-               BlueprintName = "machigaiTests"
+               BlueprintIdentifier = "955EDEA21AFC7D0E002E17EF"
+               BuildableName = "NextViewControllerTests.xctest"
+               BlueprintName = "NextViewControllerTests"
                ReferencedContainer = "container:machigai.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955EDE4A1AFC6EE6002E17EF"
-            BuildableName = "machigai.app"
-            BlueprintName = "machigai"
+            BlueprintIdentifier = "955EDE8A1AFC7D0E002E17EF"
+            BuildableName = "NextViewController.app"
+            BlueprintName = "NextViewController"
             ReferencedContainer = "container:machigai.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -72,12 +72,13 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955EDE4A1AFC6EE6002E17EF"
-            BuildableName = "machigai.app"
-            BlueprintName = "machigai"
+            BlueprintIdentifier = "955EDE8A1AFC7D0E002E17EF"
+            BuildableName = "NextViewController.app"
+            BlueprintName = "NextViewController"
             ReferencedContainer = "container:machigai.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -90,12 +91,13 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "955EDE4A1AFC6EE6002E17EF"
-            BuildableName = "machigai.app"
-            BlueprintName = "machigai"
+            BlueprintIdentifier = "955EDE8A1AFC7D0E002E17EF"
+            BuildableName = "NextViewController.app"
+            BlueprintName = "NextViewController"
             ReferencedContainer = "container:machigai.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
